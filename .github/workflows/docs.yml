@@ -33,5 +33,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           cname: me.pankaagr.cloud
-
-cname: github.com
