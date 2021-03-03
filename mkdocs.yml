@@ -1,0 +1,51 @@
+site_name: Pankaj Agrawal
+site_description: My personal Journal of stuff I do!
+site_author: Pankaj Agrawal
+nav:
+  - Technical Blogs: blogs/index.md
+
+theme:
+  name: material
+  palette:
+    scheme: preference
+    primary: deep purple
+  features:
+    - navigation.sections
+    - navigation.expand
+  icon:
+    repo: fontawesome/brands/github
+  logo: media/pankaj.png
+  favicon: media/pankaj.png
+  custom_dir: docs/overrides
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - admonition
+  - pymdownx.tabbed
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.snippets:
+      base_path: '.'
+      check_paths: true
+  - meta
+  - toc:
+      permalink: true
+      toc_depth: 4
+  - attr_list
+
+copyright: Copyright &copy; 2021 pankaagr.cloud
+
+plugins:
+  - git-revision-date
+  - search
+
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascript/aws-amplify.min.js
+
+repo_url: https://github.com/pankajagrawal16/pankajagrawal16.github.io/
