@@ -3,6 +3,7 @@ site_description: My personal Journal of stuff I do!
 site_author: Pankaj Agrawal
 nav:
   - Technical Blogs: blogs/index.md
+  - Open Source Projects: code/index.md
 
 theme:
   name: material
