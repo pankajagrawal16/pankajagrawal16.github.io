@@ -4,6 +4,13 @@ title: Blogs
 
 # Developer Blog
 
+## [Packaging and deploying AWS Lambda functions written in Java with AWS Cloud Development Kit](https://aws.amazon.com/blogs/opensource/packaging-and-deploying-aws-lambda-functions-written-in-java-with-aws-cloud-development-kit/){target=_blank}
+
+Many Java applications use Apache Maven or Gradle for building and managing the project. These tools help map how to build a particular piece of software, along with its different dependencies. In almost every scenario, these applications will depend on several external dependencies/libraries. AWS Lambda functions written in Java also use these tools for packaging software.
+
+In this article, we’ll show how to build and package Lambda functions written in Java with external dependencies via AWS CDK.
+
+
 ## [Automating mutual TLS setup for Amazon API Gateway](https://aws.amazon.com/blogs/compute/automating-mutual-tls-setup-for-amazon-api-gateway/){target=_blank}
 
 In September 2020, Amazon API Gateway announced support for mutual Transport Layer Security (TLS) authentication. This 
