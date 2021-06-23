@@ -3,6 +3,11 @@ title: Open Source Projects
 
 # Open Source Projects
 
+## [:material-github: ecs-windows-ci-cd-blue-green](https://github.com/aws-samples/ecs-windows-ci-cd-blue-green){target=_blank}
+
+This project sets up a Windows based ECS Cluster using [capacity provider auto-scaling](https://aws.amazon.com/blogs/containers/deep-dive-on-amazon-ecs-cluster-auto-scaling/) with fully automated Blue/Green deployment powered by AWS Code Deploy. All you
+need to pass is your ECR repo name where the image resides in [cdk.json](cdk.json) via `imageRepository` property.
+
 ## [:material-github: aws-lambda-powertools-java](https://github.com/awslabs/aws-lambda-powertools-java){target=_blank}
 
 Powertools is a suite of utilities for AWS Lambda Functions that makes tracing with AWS X-Ray, structured logging and 
