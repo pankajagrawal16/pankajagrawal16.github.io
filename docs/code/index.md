@@ -3,6 +3,12 @@ title: Open Source Projects
 
 # Open Source Projects
 
+## [:material-github: serverless-rds-proxy-demo](https://github.com/aws-samples/serverless-rds-proxy-demo){target=_blank}
+
+This project demos benefits of using RDS proxy with serverless workload which depends on relational database like RDS Aurora. Project shows end to end automated setup of RDS Aurora(Mysql) with RDS proxy. Basic serverless architecture is set up using API gateway HTTP API and Lambda Functions.
+
+Project sets up two endpoints with HTTP API, one which talks directly to RDS Aurora cluster and the other which talks via RDS Proxy. It provides load testing setup to measure the benefits of using RDS proxy in terms of connection pooling and elasticity.
+
 ## [:material-github: ecs-windows-ci-cd-blue-green](https://github.com/aws-samples/ecs-windows-ci-cd-blue-green){target=_blank}
 
 This project sets up a Windows based ECS Cluster using [capacity provider auto-scaling](https://aws.amazon.com/blogs/containers/deep-dive-on-amazon-ecs-cluster-auto-scaling/) with fully automated Blue/Green deployment powered by AWS Code Deploy. All you
