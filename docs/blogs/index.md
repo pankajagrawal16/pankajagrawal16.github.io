@@ -4,6 +4,10 @@ title: Blogs
 
 # Developer Blog
 
+## [Create an HTTP API endpoint that calls a Lambda function to RDS Proxy](https://serverlessland.com/patterns/apigw-http-api-lambda-rds-proxy){target=_blank}
+
+Sets up an API Gateway HTTP API endpoint with an AWS Lambda function as an integration. The Lambda function integrates with RDS Proxy to query the RDS Aurora (MySQL) relational database.
+
 ## [Packaging and deploying AWS Lambda functions written in Java with AWS Cloud Development Kit](https://aws.amazon.com/blogs/opensource/packaging-and-deploying-aws-lambda-functions-written-in-java-with-aws-cloud-development-kit/){target=_blank}
 
 Many Java applications use Apache Maven or Gradle for building and managing the project. These tools help map how to build a particular piece of software, along with its different dependencies. In almost every scenario, these applications will depend on several external dependencies/libraries. AWS Lambda functions written in Java also use these tools for packaging software.
