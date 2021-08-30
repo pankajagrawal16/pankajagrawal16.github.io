@@ -5,6 +5,8 @@ description: Hi there 👋
 
 ## Hi there 👋
 
+![profile](media/badge.jpeg){: .icon .left}
+
 **I am Developer at heart, working as Senior Solutions Architect, [Amazon web services](https://aws.amazon.com/).** 
 
 Currently, working with different customers across Nordics, helping them to make best use of AWS services and accelerate 

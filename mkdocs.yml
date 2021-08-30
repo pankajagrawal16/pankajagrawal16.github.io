@@ -15,8 +15,8 @@ theme:
     - navigation.expand
   icon:
     repo: fontawesome/brands/github
-  logo: media/pankaj.png
-  favicon: media/pankaj.png
+  logo: media/badge.jpeg
+  favicon: media/badge.jpeg
   custom_dir: docs/overrides
 
 markdown_extensions:
