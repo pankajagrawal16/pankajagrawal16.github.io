@@ -25,3 +25,16 @@
 .md-typeset .admonition, .md-typeset details {
     font-size: 0.70rem
 }
+
+/* attribute classes to be used via {: .class} */
+.left {
+    /* left align with text float on the right */
+    float: left;
+    padding-right: 20px;
+}
+.icon {
+    /* change image size */
+    width: 25%;
+    border-radius: 50%;
+}
+
