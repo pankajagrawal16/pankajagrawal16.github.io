@@ -4,6 +4,10 @@ title: Blogs
 
 # Developer Blog
 
+## [AWS Nordics Office Hours - Simplifying serverless best practices with AWS Lambda Powertools](https://youtu.be/jFefW_WiXso){target=_blank}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jFefW_WiXso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## [Create an HTTP API endpoint that calls a Lambda function to RDS Proxy](https://serverlessland.com/patterns/apigw-http-api-lambda-rds-proxy){target=_blank}
 
 Sets up an API Gateway HTTP API endpoint with an AWS Lambda function as an integration. The Lambda function integrates with RDS Proxy to query the RDS Aurora (MySQL) relational database.
