@@ -4,6 +4,10 @@ title: Blogs
 
 # Developer Blog
 
+## [AWS Nordics Office Hours - Continuous delivery for AWS CDK applications with CDK Pipelines](https://youtu.be/5BpKoVJb7QI){target=_blank}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5BpKoVJb7QI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## [AWS Nordics Office Hours - Simplifying serverless best practices with AWS Lambda Powertools](https://youtu.be/jFefW_WiXso){target=_blank}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jFefW_WiXso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
