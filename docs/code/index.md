@@ -3,6 +3,18 @@ title: Open Source Projects
 
 # Open Source Projects
 
+## [:material-github: aws-appconfig-codepipeline-cdk](https://github.com/aws-samples/aws-appconfig-codepipeline-cdk){target=_blank}
+
+This sample application demos setup of [AWS AppConfig](https://docs.aws.amazon.com/appconfig/latest/userguide/what-is-appconfig.html) using [AWS CDK](https://aws.amazon.com/cdk/). AWS AppConfig application is 
+set up to use [AWS CodePipeline](https://aws.amazon.com/codepipeline/) as [configuration store](https://docs.aws.amazon.com/appconfig/latest/userguide/appconfig-creating-configuration-and-profile.html). It also sets up [AWS Lambda validator](https://docs.aws.amazon.com/appconfig/latest/userguide/appconfig-creating-configuration-and-profile-validators.html) to validate 
+the configuration.
+
+In addition, the project can set up a basic serverless api using [Amazon API Gateway](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-rest-api.html)
+backed by [AWS Lambda](https://aws.amazon.com/lambda/) which makes use of [AWS AppConfig Lambda extension](https://docs.aws.amazon.com/appconfig/latest/userguide/appconfig-integration-lambda-extensions.html) to query hosted configuration.
+
+[Kotlin](https://kotlinlang.org/) is used as language runtime to set up both the cdk application and needed lambda functions.
+
+
 ## [:material-github: serverless-rds-proxy-demo](https://github.com/aws-samples/serverless-rds-proxy-demo){target=_blank}
 
 This project demos benefits of using RDS proxy with serverless workload which depends on relational database like RDS Aurora. Project shows end to end automated setup of RDS Aurora(Mysql) with RDS proxy. Basic serverless architecture is set up using API gateway HTTP API and Lambda Functions.
