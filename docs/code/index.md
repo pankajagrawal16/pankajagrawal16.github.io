@@ -31,6 +31,11 @@ need to pass is your ECR repo name where the image resides in [cdk.json](cdk.jso
 Powertools is a suite of utilities for AWS Lambda Functions that makes tracing with AWS X-Ray, structured logging and 
 creating custom metrics asynchronously easier.
 
+## [:material-github: cookiecutter-aws-sam-powertools-java](https://github.com/aws-samples/cookiecutter-aws-sam-powertools-java){target=_blank}
+
+This is a [Cookiecutter](https://github.com/cookiecutter/cookiecutter) template to create a Serverless App based on Serverless Application Model (SAM) and Java with [Lambda Powertools Java](https://github.com/awslabs/aws-lambda-powertools-java).
+
+
 ## [:material-github: serverless-webapp-mono-repo-ci-cd-java](https://github.com/aws-samples/serverless-webapp-mono-repo-ci-cd-java){target=_blank}
 
 Use AWS Serverless stack to build a full fledged web application with both backend and frontend hosted inside a same 
