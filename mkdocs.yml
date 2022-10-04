@@ -5,6 +5,7 @@ nav:
   - Technical Blogs: blogs/index.md
   - Open Source Projects: code/index.md
 
+
 theme:
   name: material
   palette:
