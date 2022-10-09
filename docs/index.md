@@ -7,7 +7,7 @@ description: Hi there 👋
 
 ![profile](media/badge.jpeg){: .icon .left}
 
-**I am Developer at heart, working as Principal Customer Engineer at [Microsoft](https://azure.microsoft.com/en-us/)**
+**I am Developer at heart, currently working as Principal Customer Engineer at [Microsoft](https://azure.microsoft.com/en-us/)**
 
 Working with different customers across Nordics, helping them to make best use of Cloud native technologies and accelerate 
 their journey to cloud. In my spare time, I enjoy running into the woods and love to learn new technical skills. 
