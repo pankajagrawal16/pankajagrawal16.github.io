@@ -48,6 +48,6 @@ plugins:
 extra_css:
   - stylesheets/extra.css
 extra_javascript:
-  - javascript/rumTracker.js
+  - javascript/insights.js
 
 repo_url: https://github.com/pankajagrawal16/pankajagrawal16.github.io/
