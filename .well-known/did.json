@@ -1,0 +1,48 @@
+{
+  "id": "did:web:me.pankaagr.cloud",
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    {
+      "@base": "did:web:me.pankaagr.cloud"
+    }
+  ],
+  "service": [
+    {
+      "id": "#linkeddomains",
+      "type": "LinkedDomains",
+      "serviceEndpoint": {
+        "origins": [
+          "https://me.pankaagr.cloud/"
+        ]
+      }
+    },
+    {
+      "id": "#hub",
+      "type": "IdentityHub",
+      "serviceEndpoint": {
+        "instances": [
+          "https://hub.did.msidentity.com/v1.0/1ee01591-2166-4bd5-b9fa-55bdf4a8516f"
+        ]
+      }
+    }
+  ],
+  "verificationMethod": [
+    {
+      "id": "#f4664929843547a7b1fc1db83a1145c9vcSigningKey-9608c",
+      "controller": "did:web:me.pankaagr.cloud",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "publicKeyJwk": {
+        "crv": "secp256k1",
+        "kty": "EC",
+        "x": "087VoGudD2tmGISA4-G0eYaFJ6x_r4LFnIwrEl4yK1g",
+        "y": "cYsZZhdl2ytwzzqBbHavOP_l4cv4gF0M3plXlnxtRl8"
+      }
+    }
+  ],
+  "authentication": [
+    "#f4664929843547a7b1fc1db83a1145c9vcSigningKey-9608c"
+  ],
+  "assertionMethod": [
+    "#f4664929843547a7b1fc1db83a1145c9vcSigningKey-9608c"
+  ]
+}
