@@ -5,7 +5,7 @@ description: Hi there 👋
 
 ## Hi there 👋
 
-![profile](media/badge.jpeg){: .icon .left}
+![profile](media/badge.jpg){: .icon .left}
 
 **I am Developer at heart, currently working as Principal Customer Engineer at [Microsoft](https://azure.microsoft.com/en-us/)**
 
