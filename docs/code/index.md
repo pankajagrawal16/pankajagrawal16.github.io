@@ -3,6 +3,14 @@ title: Open Source Projects
 
 # Open Source Projects
 
+## [:material-github: Azure-Samples/serverless-webapp-kotlin](https://github.com/Azure-Samples/serverless-webapp-kotlin){target=_blank}
+
+Use Azure Serverless stack to build a full-fledged web application with both backend and frontend hosted inside a same mono repo.
+
+CI/CD pipeline is implemented using [GitHub actions](.github/workflows) for both backend and frontend app including related serverless cloud infrastructure for  backend and frontend. Infrastructure as code(IAC) for both frontend and backend infra is written using [Bicep](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview)
+
+Application builds a React static web app, which talks to a bunch of APIs hosted via [Azure API Management](https://azure.microsoft.com/en-us/products/api-management/) and talking to azure functions written in kotlin, Azure storage and Azure Cosmo DB and Azure Cognitive services as backends. Feature of web application itself is simple. Since that is not the main purpose here. User can basically upload an image with a metadata. Then if user want, they can try uploading another image from another flow, and try to find face in it. If it's found in Cosmo DB, then we return the metadata.
+
 ## [:material-github: aws-appconfig-codepipeline-cdk](https://github.com/aws-samples/aws-appconfig-codepipeline-cdk){target=_blank}
 
 This sample application demos setup of [AWS AppConfig](https://docs.aws.amazon.com/appconfig/latest/userguide/what-is-appconfig.html) using [AWS CDK](https://aws.amazon.com/cdk/). AWS AppConfig application is 
