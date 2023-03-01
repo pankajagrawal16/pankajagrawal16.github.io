@@ -11,7 +11,7 @@ CI/CD pipeline is implemented using [GitHub actions](.github/workflows) for both
 
 Application builds a React static web app, which talks to a bunch of APIs hosted via [Azure API Management](https://azure.microsoft.com/en-us/products/api-management/) and talking to azure functions written in kotlin, Azure storage and Azure Cosmo DB and Azure Cognitive services as backends. Feature of web application itself is simple. Since that is not the main purpose here. User can basically upload an image with a metadata. Then if user want, they can try uploading another image from another flow, and try to find face in it. If it's found in Cosmo DB, then we return the metadata.
 
-## [:material-github: aws-appconfig-codepipeline-cdk](https://github.com/aws-samples/aws-appconfig-codepipeline-cdk){target=_blank}
+## [:material-github: aws-samples/aws-appconfig-codepipeline-cdk](https://github.com/aws-samples/aws-appconfig-codepipeline-cdk){target=_blank}
 
 This sample application demos setup of [AWS AppConfig](https://docs.aws.amazon.com/appconfig/latest/userguide/what-is-appconfig.html) using [AWS CDK](https://aws.amazon.com/cdk/). AWS AppConfig application is 
 set up to use [AWS CodePipeline](https://aws.amazon.com/codepipeline/) as [configuration store](https://docs.aws.amazon.com/appconfig/latest/userguide/appconfig-creating-configuration-and-profile.html). It also sets up [AWS Lambda validator](https://docs.aws.amazon.com/appconfig/latest/userguide/appconfig-creating-configuration-and-profile-validators.html) to validate 
@@ -23,28 +23,30 @@ backed by [AWS Lambda](https://aws.amazon.com/lambda/) which makes use of [AWS A
 [Kotlin](https://kotlinlang.org/) is used as language runtime to set up both the cdk application and needed lambda functions.
 
 
-## [:material-github: serverless-rds-proxy-demo](https://github.com/aws-samples/serverless-rds-proxy-demo){target=_blank}
+## [:material-github: aws-lambda-powertools-java](https://github.com/awslabs/aws-lambda-powertools-java){target=_blank}
+
+Powertools is a suite of utilities for AWS Lambda Functions that makes tracing with AWS X-Ray, structured logging and 
+creating custom metrics asynchronously easier.
+
+
+## [:material-github: aws-samples/serverless-rds-proxy-demo](https://github.com/aws-samples/serverless-rds-proxy-demo){target=_blank}
 
 This project demos benefits of using RDS proxy with serverless workload which depends on relational database like RDS Aurora. Project shows end to end automated setup of RDS Aurora(Mysql) with RDS proxy. Basic serverless architecture is set up using API gateway HTTP API and Lambda Functions.
 
 Project sets up two endpoints with HTTP API, one which talks directly to RDS Aurora cluster and the other which talks via RDS Proxy. It provides load testing setup to measure the benefits of using RDS proxy in terms of connection pooling and elasticity.
 
-## [:material-github: ecs-windows-ci-cd-blue-green](https://github.com/aws-samples/ecs-windows-ci-cd-blue-green){target=_blank}
+
+## [:material-github: aws-samples/ecs-windows-ci-cd-blue-green](https://github.com/aws-samples/ecs-windows-ci-cd-blue-green){target=_blank}
 
 This project sets up a Windows based ECS Cluster using [capacity provider auto-scaling](https://aws.amazon.com/blogs/containers/deep-dive-on-amazon-ecs-cluster-auto-scaling/) with fully automated Blue/Green deployment powered by AWS Code Deploy. All you
 need to pass is your ECR repo name where the image resides in [cdk.json](cdk.json) via `imageRepository` property.
-
-## [:material-github: aws-lambda-powertools-java](https://github.com/awslabs/aws-lambda-powertools-java){target=_blank}
-
-Powertools is a suite of utilities for AWS Lambda Functions that makes tracing with AWS X-Ray, structured logging and 
-creating custom metrics asynchronously easier.
 
 ## [:material-github: cookiecutter-aws-sam-powertools-java](https://github.com/aws-samples/cookiecutter-aws-sam-powertools-java){target=_blank}
 
 This is a [Cookiecutter](https://github.com/cookiecutter/cookiecutter) template to create a Serverless App based on Serverless Application Model (SAM) and Java with [Lambda Powertools Java](https://github.com/awslabs/aws-lambda-powertools-java).
 
 
-## [:material-github: serverless-webapp-mono-repo-ci-cd-java](https://github.com/aws-samples/serverless-webapp-mono-repo-ci-cd-java){target=_blank}
+## [:material-github: aws-samples/serverless-webapp-mono-repo-ci-cd-java](https://github.com/aws-samples/serverless-webapp-mono-repo-ci-cd-java){target=_blank}
 
 Use AWS Serverless stack to build a full fledged web application with both backend and frontend hosted inside a same 
 mono repo. Backend CI/CD pipeline and backend infrastructure is written using SAM. Frontend CI/CD pipeline and 
@@ -55,21 +57,21 @@ functions, S3 and dynamoDB as backends. Feature of web application itself is sim
 here. User can basically upload an image with a metadata. Then if user want, they can try uploading another image from 
 another flow, and try to find face in it. If it's found in Dynamo DB, then we return the metadata.
 
-## [:material-github: api-gateway-auth](https://github.com/aws-samples/api-gateway-auth/){target=_blank}
+## [:material-github: aws-samples/api-gateway-auth](https://github.com/aws-samples/api-gateway-auth/){target=_blank}
 
 This sample application showcases how to set up and automate different types of authentication supported by 
 Amazon API Gateway HTTP API via AWS SAM.
 
 This SAM app uses java as language runtime for the lambda functions and custom resources.
 
-## [:material-github: cdk-lambda-packaging-java](https://github.com/aws-samples/cdk-lambda-packaging-java){target=_blank}
+## [:material-github: aws-samples/cdk-lambda-packaging-java](https://github.com/aws-samples/cdk-lambda-packaging-java){target=_blank}
 
 This sample application show how you can use [AWS Cloud Development Kit(AWS CDK)](https://aws.amazon.com/cdk/) to deploy a AWS lambda functions with 
 external dependencies. [AWS Serverless Application Model (AWS SAM)](https://aws.amazon.com/serverless/sam/) takes care of building and packaging lambda function 
 with external dependencies out of the box. It was not possible this with AWS CDK until [s3-assets](https://mvnrepository.com/artifact/software.amazon.awscdk/s3-assets) 
 was introduced.
 
-## [:material-github: aws-ag-client](https://github.com/pankajagrawal16/aws-ag-client){target=_blank}
+## [:material-github: pankajagrawal16/aws-ag-client](https://github.com/pankajagrawal16/aws-ag-client){target=_blank}
 
 This Java repo demonstrates how to make IAM authenticated call to AWS api gateway endpoint. It is set up as a maven 
 project currently and uses the AWS java SDK under the hood to provide simple wrapper classes to make these calls.
