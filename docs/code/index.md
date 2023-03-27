@@ -11,6 +11,10 @@ CI/CD pipeline is implemented using [GitHub actions](.github/workflows) for both
 
 Application builds a React static web app, which talks to a bunch of APIs hosted via [Azure API Management](https://azure.microsoft.com/en-us/products/api-management/) and talking to azure functions written in kotlin, Azure storage and Azure Cosmo DB and Azure Cognitive services as backends. Feature of web application itself is simple. Since that is not the main purpose here. User can basically upload an image with a metadata. Then if user want, they can try uploading another image from another flow, and try to find face in it. If it's found in Cosmo DB, then we return the metadata.
 
+## [:material-github: Azure/aca-dotnet-workshop](https://github.com/Azure/aca-dotnet-workshop){target=_blank}
+
+This workshop, focusses on a containerization service offered by Microsoft Azure which is Azure Container Apps (ACA). Microsoft announced the public preview of Azure Container Apps back in Nov 2021 and in May 2022 it announced the General Availability of Azure Container Apps. In brief, Azure Container Apps is a fully managed serverless container runtime for building and running cloud-native applications which focuses on the business logic of the apps rather than on cloud infrastructure management.
+
 ## [:material-github: aws-samples/aws-appconfig-codepipeline-cdk](https://github.com/aws-samples/aws-appconfig-codepipeline-cdk){target=_blank}
 
 This sample application demos setup of [AWS AppConfig](https://docs.aws.amazon.com/appconfig/latest/userguide/what-is-appconfig.html) using [AWS CDK](https://aws.amazon.com/cdk/). AWS AppConfig application is 
