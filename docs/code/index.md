@@ -1,5 +1,8 @@
-
+---
 title: Open Source Projects
+hide:
+- navigation
+---
 
 # Open Source Projects
 

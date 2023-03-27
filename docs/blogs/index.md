@@ -1,6 +1,8 @@
-
+---
 title: Blogs
-
+hide:
+- navigation
+---
 
 # Developer Blog
 

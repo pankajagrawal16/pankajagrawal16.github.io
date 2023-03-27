@@ -12,8 +12,11 @@ theme:
     scheme: preference
     primary: deep purple
   features:
-    - navigation.sections
+    - navigation.top
+    - navigation.tabs
     - navigation.expand
+    - search.share
+    - content.tabs.link
   icon:
     repo: fontawesome/brands/github
   logo: media/badge.jpeg
@@ -44,6 +47,7 @@ copyright: Copyright &copy; 2021 pankaagr.cloud
 plugins:
   - git-revision-date
   - search
+  - tags
 
 extra_css:
   - stylesheets/extra.css

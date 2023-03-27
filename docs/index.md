@@ -1,6 +1,9 @@
 ---
 title: About Me
 description: Hi there 👋
+hide:
+- navigation
+- toc
 ---
 
 ## Hi there 👋
