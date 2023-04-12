@@ -22,7 +22,6 @@ theme:
     repo: fontawesome/brands/github
   logo: media/badge.jpeg
   favicon: media/badge.jpeg
-  custom_dir: docs/overrides
 
 markdown_extensions:
   - pymdownx.emoji:
