@@ -8,7 +8,7 @@ hide:
 
 ## Hi there 👋
 
-![profile](media/badge.jpg){: .icon .left}
+![profile](media/badge.png){: .icon .left}
 
 **I am Developer at heart, currently working as Principal Customer Engineer at [Microsoft](https://azure.microsoft.com/en-us/)**
 
