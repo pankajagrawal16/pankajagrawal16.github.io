@@ -6,6 +6,15 @@ hide:
 
 # Open Source Projects
 
+## [:material-github: Azure/aca-landing-zone-accelerator](https://github.com/Azure/aca-landing-zone-accelerator){target=_blank}
+
+Azure landing zone accelerators provide architectural guidance, reference architectures, reference implementations, and automation to deploy workload platforms on Azure at scale. They are aligned with industry proven practices, such as those presented in Azure landing zones guidance in the Cloud Adoption Framework.
+
+This Azure Container Apps landing zone accelerator represents the strategic design path and target technical state for an Azure Container Apps deployment, owned and operated by an workload team.
+
+This repository provides packaged guidance for customer scenarios, reference architecture, reference implementation, tooling, design area guidance, sample application deployed after provisioning the infrastructure using the accelerator. The architectural approach can be used as design guidance for greenfield implementation and as an assessment for brownfield customers already using containerized apps.
+
+
 ## [:material-github: Azure-Samples/serverless-webapp-kotlin](https://github.com/Azure-Samples/serverless-webapp-kotlin){target=_blank}
 
 Use Azure Serverless stack to build a full-fledged web application with both backend and frontend hosted inside a same mono repo.
