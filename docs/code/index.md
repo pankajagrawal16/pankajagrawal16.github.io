@@ -6,6 +6,12 @@ hide:
 
 # Open Source Projects
 
+## [:material-github: Azure/bicep-registry-modules](https://github.com/Azure/bicep-registry-modules){target=_blank}
+
+This repo contains the source code of all currently available Bicep modules in the Bicep public module registry (i.e., all AVM Bicep modules).
+
+To provide our customers with a unified experience, Azure Verified Modules (AVM) is now the single Microsoft standard for Bicep modules, published to the Public Bicep Registry, via this repository.
+
 ## [:material-github: Azure/aca-landing-zone-accelerator](https://github.com/Azure/aca-landing-zone-accelerator){target=_blank}
 
 Azure landing zone accelerators provide architectural guidance, reference architectures, reference implementations, and automation to deploy workload platforms on Azure at scale. They are aligned with industry proven practices, such as those presented in Azure landing zones guidance in the Cloud Adoption Framework.
