@@ -11,14 +11,14 @@ jobs:
   docs:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v4
       - name: Set up Python
-        uses: actions/setup-python@v1
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.8"
-      - uses: actions/setup-node@v1
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
         with:
-          node-version: '12'
+          node-version: '20'
       - name: Capture branch and tag
         id: branch_name
         run: |
