@@ -6,6 +6,10 @@ hide:
 
 # Open Source Projects
 
+## [:material-github: Azure-Samples/Gitlab-Runner-VMSS](https://github.com/Azure-Samples/Gitlab-Runner-VMSS){target=_blank}
+
+This repository provides Infrastructure as Code (IaC) templates and scripts to deploy an auto-scaling GitLab Runner infrastructure on Azure using Virtual Machine Scale Sets (VMSS). The solution supports both Linux and Windows runners and automatically scales based on job demand.
+
 ## [:material-github: Azure/bicep-registry-modules](https://github.com/Azure/bicep-registry-modules){target=_blank}
 
 This repo contains the source code of all currently available Bicep modules in the Bicep public module registry (i.e., all AVM Bicep modules).
